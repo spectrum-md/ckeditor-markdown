@@ -1,0 +1,1 @@
+!function(a){const i=a.ca=a.ca||{};i.dictionary=Object.assign(i.dictionary||{},{Bold:"Negreta",Cancel:"Cancel·lar","Cannot upload file:":"No es pot pujar l'arxiu:",Italic:"Cursiva",Save:"Desar",Subscript:"",Superscript:""}),i.getPluralForm=function(a){return 1!=a}}(window.CKEDITOR_TRANSLATIONS||(window.CKEDITOR_TRANSLATIONS={}));
