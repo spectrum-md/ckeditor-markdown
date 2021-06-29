@@ -32,6 +32,8 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 function Markdown(editor) {
 	editor.data.processor = new GFMDataProcessor(editor.editing.view.document);
+	editor.data.processor.keepHtml('sub')
+	editor.data.processor.keepHtml('sup')
 }
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -54,6 +56,7 @@ ClassicEditor.builtinPlugins = [
 	ImageUpload,
 	Link,
 	List,
+	Markdown,
 	Paragraph,
 	PasteFromOffice,
 	Subscript,
